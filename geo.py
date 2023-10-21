@@ -1,5 +1,6 @@
 #import library
 import geopandas as gpd
+import contextily
 
 #read data
 
@@ -74,19 +75,3 @@ package to add a tile map of the actual city of Barcelona.
 
 ax= districts.plot(column='DISTRICTE', figsize=(10,6), alpha=0.3, edgecolor='black', legend=True)
 contextily.add_basemap(ax, crs=districts.crs.to_string())
-
-'''
-Finally, we can add the centroids of the districts and the Sagrada Familia to our map, 
-as well as a title. Equally, to make the plot more compelling, we can use the nice contextily 
-package to add a tile map of the actual city of Barcelona.
-'''
-
-# import contextily
-# import matplotlib.pyplot as plt
-# ax= districts.plot(column='DISTRICTE', figsize=(12,6), alpha=0.5, legend=True)
-# districts["centroid"].plot(ax=ax, color="green")
-# sagrada_fam.plot(ax=ax,color='black', marker='+')
-# contextily.add_basemap(ax, crs=districts.crs.to_string())
-# plt.title('A Beautiful Map of Barcelona')
-# plt.axis('off')
-# plt.show()
