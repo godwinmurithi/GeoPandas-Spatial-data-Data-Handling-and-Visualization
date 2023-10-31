@@ -8,10 +8,10 @@ Welcome to the GitHub repository for my two-part blog series on GeoPandas, a pow
 
 ### Overview:
 
-**Part 1: Introduction to GeoPandas**
+**Part 1: Geospatial Data Handling and Visualization**
 In this introductory post, I cover the basics of GeoPandas, explaining how it leverages the capabilities of pandas and shapely packages for efficient geospatial data handling. Topics include setting up GeoPandas, loading spatial datasets, and basic spatial operations, and map plotting.
 
-**Part 2: Advanced Spatial Analysis with GeoPandas**
+**Part 2: Spatial Relationships**
 Building on the foundational knowledge from Part 1, the second post delves into advanced spatial analysis using GeoPandas. Topics covered include attribute joins, spatial joins, and overlay operations. Practical examples demonstrate how to perform real-world spatial analyses.
 
 ### Repository Contents:
