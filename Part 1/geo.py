@@ -4,8 +4,8 @@ import contextily
 
 #read data
 
-url = url = 'https://raw.githubusercontent.com/jcanalesluna/bcn-geodata/master/districtes/districtes.geojson'
-districts = gpd.read_file(url)
+
+districts = gpd.read_file("/home/godwin/GeoPandas-Spatial-data-Data-Handling-and-Visualization/Part 1/districtes.geojson")
 districts
 
 #save the district GeoDataFrame into a geoJSON file:
